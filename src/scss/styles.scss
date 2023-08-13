@@ -3,52 +3,75 @@
 @import "reset";
 @import "grid";
 
-body {
-  font-size: 16px;
+// body {
+//   font-size: 16px;
+// }
+
+// .NavBar {
+//   display: flex;
+//   justify-content: space-around;
+//   width: 100%;
+//   background-color: #f0f0f0;
+//   height: 2rem;
+//   align-items: center;
+//   font-size: 1.5rem;
+//   color: orangered;
+//   a {
+//     color: orangered;
+//     text-decoration: none;
+//     &:link, &:visited {
+//       color: orangered;
+//       text-decoration: none;
+//     }
+//   }
+// }
+
+// .HomePage {
+//   h1 {
+//     font-size: 3rem;
+//   }
+
+// }
+
+// .AboutPage {
+//   h1 {
+//     font-size: 3rem;
+//   }
+// }
+
+// .ContactPage{
+//   h1 {
+//     font-size: 3rem;
+//   }
+
+// }
+
+// .AppPage {
+//   h1 {
+//     font-size: 3rem;
+//   }
+
+// }
+
+.AuthPage {
+  height: 100vh;
 }
 
-.NavBar {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  background-color: #f0f0f0;
-  height: 2rem;
-  align-items: center;
-  font-size: 1.5rem;
-  color: orangered;
-  a {
-    color: orangered;
-    text-decoration: none;
-    &:link, &:visited {
-      color: orangered;
-      text-decoration: none;
-    }
-  }
+.login {
+  background-color: lightgrey;
 }
 
-.HomePage {
-  h1 {
-    font-size: 3rem;
-  }
-
+.signUpBtn {
+  background-color: aqua;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
 }
 
-.AboutPage {
-  h1 {
-    font-size: 3rem;
-  }
-}
-
-.ContactPage{
-  h1 {
-    font-size: 3rem;
-  }
-
-}
-
-.AppPage {
-  h1 {
-    font-size: 3rem;
-  }
-
+.loginBtn {
+  margin-top: 22px;
+  border: none;
+  background-color: red;
+  border-radius: 3px;
+  color: white;
 }

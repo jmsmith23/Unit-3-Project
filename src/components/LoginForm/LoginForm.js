@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import * as usersService from '../../utilities/users-service';
+import styles from './LoginForm.module.scss';
 
 export default function LoginForm({ setUser }) {
 	const [credentials, setCredentials] = useState({
@@ -20,9 +21,7 @@ export default function LoginForm({ setUser }) {
 			// The promise returned by the signUp service method
 			// will resolve to the user object included in the
 			// payload of the JSON Web Token (JWT)
-			console.log('Teo');
 			const user = await usersService.login(credentials);
-			console.log('Josh');
 			setUser(user);
 		} catch {
 			setError('Log In Failed - Try Again');
@@ -31,10 +30,15 @@ export default function LoginForm({ setUser }) {
 
 	return (
 		<div>
-			<div className={[`form-container`]}>
-				<form autoComplete="off" onSubmit={handleSubmit}>
+			<div className={styles.formContainer}>
+				<form
+					className="login card border-0"
+					autoComplete="off"
+					onSubmit={handleSubmit}
+				>
 					<label>Email</label>
 					<input
+						className="mb-2"
 						type="text"
 						name="email"
 						value={credentials.email}
@@ -49,7 +53,9 @@ export default function LoginForm({ setUser }) {
 						onChange={handleChange}
 						required
 					/>
-					<button type="submit">LOG IN</button>
+					<button className="loginBtn" type="submit">
+						LOG IN
+					</button>
 				</form>
 			</div>
 			<p className="error-message">&nbsp;{error}</p>
