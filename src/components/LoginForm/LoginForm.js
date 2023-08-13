@@ -38,7 +38,7 @@ export default function LoginForm({ setUser }) {
 				>
 					<label>Email</label>
 					<input
-						className="mb-2"
+						className="mb-2 pr-5"
 						type="text"
 						name="email"
 						value={credentials.email}

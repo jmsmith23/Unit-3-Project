@@ -15,9 +15,12 @@ export default function AuthPage({ setUser }) {
 				) : (
 					<SignUpForm setUser={setUser} />
 				)}
+				<div className="memberText mb-3">
+					<p>Not a member yet?</p>
+				</div>
 				<div>
 					<button
-						className="signUpBtn"
+						className="btn-lg signUpLoginToggleBtn"
 						onClick={() => setShowLogin(!showLogin)}
 					>
 						{showLogin ? 'SIGN UP' : 'LOG IN'}

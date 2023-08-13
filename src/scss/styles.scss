@@ -61,11 +61,15 @@
   background-color: lightgrey;
 }
 
-.signUpBtn {
+.signup {
+  background-color: lightgrey;
+}
+
+.signUpLoginToggleBtn {
   background-color: rgba(250, 171, 75,);
   border: 1px solid rgba(17,41,56);
   border-radius: 8px;
-  padding: 8px;
+  padding: 6px;
   font-family: 'Poppins', sans-serif;
   color: rgba(255, 255, 255)
 }
@@ -74,7 +78,34 @@
   margin-top: 20px;
   border: none;
   background-color: rgba(236,98,80);
+  border: 1px solid rgba(17,41,56);
   border-radius: 3px;
   color: white;
   font-family: 'Poppins', sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
+
+.signupBtn {
+  margin-top: 20px;
+  border: none;
+  background-color: rgba(236,98,80);
+  border: 1px solid rgba(17,41,56);
+  border-radius: 3px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.memberText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  color:black;
+  font-size: large;
+}
+
+
+
