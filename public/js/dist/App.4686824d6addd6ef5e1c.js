@@ -229,8 +229,6 @@ function MenuListItem(_ref) {
   return /*#__PURE__*/React.createElement("div", {
     className: _MenuListItem_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].MenuListItem
   }, /*#__PURE__*/React.createElement("div", {
-    className: _MenuListItem_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].emoji + ' ' + 'flex-ctr-ctr'
-  }, menuItem.emoji), /*#__PURE__*/React.createElement("div", {
     className: _MenuListItem_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].name
   }, menuItem.name), /*#__PURE__*/React.createElement("div", {
     className: _MenuListItem_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].buy
@@ -2620,4 +2618,4 @@ module.exports = __webpack_require__.p + "9051e7ecfb577399a9a8.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.ae692194bebba1668cda8d65c0fef7a1.js.map
+//# sourceMappingURL=App.b795c03b08ad087286d5c9ff71fae280.js.map
