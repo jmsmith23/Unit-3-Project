@@ -1115,14 +1115,15 @@ ___CSS_LOADER_EXPORT___.locals = {
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.XPsX6g9srqbkkTBN23k7 {
-  height: 160px;
+  height: 170px;
   width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: lightgrey;
   border-radius: 20px;
-}`, "",{"version":3,"sources":["webpack://./src/components/LoginForm/LoginForm.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,YAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,2BAAA;EACA,mBAAA;AACJ","sourcesContent":[".formContainer {\n    height: 160px;\n    width: 200px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: lightgrey;\n    border-radius: 20px;\n}\n\n\n\n"],"sourceRoot":""}]);
+  font-family: "Poppins", sans-serif;
+}`, "",{"version":3,"sources":["webpack://./src/components/LoginForm/LoginForm.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,YAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,2BAAA;EACA,mBAAA;EACA,kCAAA;AACJ","sourcesContent":[".formContainer {\n    height: 170px;\n    width: 200px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: lightgrey;\n    border-radius: 20px;\n    font-family: 'Poppins', sans-serif;\n}\n\n\n\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"formContainer": `XPsX6g9srqbkkTBN23k7`
@@ -2620,4 +2621,4 @@ module.exports = __webpack_require__.p + "9051e7ecfb577399a9a8.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.69a96804779a14d65e9fbb0ee804d7cb.js.map
+//# sourceMappingURL=App.406e8b37e4a18ab8b3a654002237be07.js.map
