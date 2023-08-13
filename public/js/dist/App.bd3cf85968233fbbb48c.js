@@ -232,7 +232,9 @@ function MenuListItem(_ref) {
     className: _MenuListItem_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].name
   }, menuItem.name), /*#__PURE__*/React.createElement("div", {
     className: _MenuListItem_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].buy
-  }, /*#__PURE__*/React.createElement("span", null, "$", menuItem.price.toFixed(2)), /*#__PURE__*/React.createElement("button", {
+  }, /*#__PURE__*/React.createElement("span", null, "$", menuItem.price.toFixed(2)), /*#__PURE__*/React.createElement("div", {
+    className: _MenuListItem_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].description
+  }, menuItem.description), /*#__PURE__*/React.createElement("button", {
     className: "btn-sm",
     onClick: () => handleAddToOrder(menuItem._id)
   }, "ADD")));
@@ -2618,4 +2620,4 @@ module.exports = __webpack_require__.p + "9051e7ecfb577399a9a8.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.b795c03b08ad087286d5c9ff71fae280.js.map
+//# sourceMappingURL=App.69a96804779a14d65e9fbb0ee804d7cb.js.map
