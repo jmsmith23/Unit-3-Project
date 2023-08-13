@@ -8,8 +8,8 @@ const Item = require('../models/item');
 	await Category.deleteMany({});
 	const categories = await Category.create([
 		{ name: 'Movie Props', sortOrder: 10 },
-		{ name: 'Clothing', sortOrder: 20 },
-		{ name: 'Jewelry', sortOrder: 30 },
+		{ name: 'Clothing and Accessories', sortOrder: 20 },
+		{ name: 'Costumes', sortOrder: 30 },
 		{ name: 'Miscellaneous', sortOrder: 40 }
 	]);
 
@@ -44,11 +44,11 @@ const Item = require('../models/item');
 			price: 75
 		},
 		{
-			name: 'Buddha statue from Big Trouble in Little China',
+			name: 'Sacrifyx Record from The Gate',
 			description:
-				'This is one of a long line of Buddha statues from the 1986 film Big Trouble in Little China. The first step to immortality is picking up where Lo Pan left off.',
+				'Need to close up that whole in your backyard that is allowing demons to come to earth to try to kill you? Look no further. This record from the 1987 film The Gate, titled The Dark Book by Sacrifyx, will guide you all the way. Condition is NM+',
 			category: categories[0],
-			price: 300
+			price: 200
 		},
 		{
 			name: 'Brain in Jar from Blood Diner',
@@ -136,9 +136,58 @@ const Item = require('../models/item');
 		{
 			name: 'Gem from Psycho Goreman',
 			description:
-				'Need to control a demon who is bent on destroying the universe? We got you covered with this powerful gem from the 2020 film Psycho Goreman',
+				'Need to control a demon who is bent on destroying the universe? We got you covered with this powerful gem from the 2020 film Psycho Goreman.',
 			category: categories[0],
 			price: 279.99
+		},
+		{
+			name: 'Baseball Cap from Over The Top',
+			description:
+				'Need a quick $100k for a semi-truck and want to impress your son at the same time? This baseball cap from the 1987 film Over The Top has got you covered. Simply turn it backwards and you too can be an unbeatable arm wrestling champion. One size fits most',
+			category: categories[1],
+			price: 65.99
+		},
+		{
+			name: 'Who Farted? T-shirt from Revenge of the Nerds',
+			description:
+				'Be the life of the party with this shirt worn by Booger in the 1984 film Revenge of the Nerds. Looks gross, smells grosser. Size Medium',
+			category: categories[1],
+			price: 35
+		},
+		{
+			name: 'Rex Kwon Do Pants from Napoleon Dynamite',
+			description:
+				'Merica, am I right?! These loose fitting Zubaz pants worn by the character Rex in the 2004 film Napoleon Dynamite are sure to deliver a mighty roundhouse kick to anyones face. Size Large',
+			category: categories[1],
+			price: 49.99
+		},
+		{
+			name: 'Spandex One Piece Suit from Breakin 2: Electric Bugaloo',
+			description:
+				'This one piece spandex suit worn by Jean-Claude Van Damme in the 1984 film Breakin 2: Electric Bugaloo is sure to land you your first cameo in a break dancing movie. Get it today. Size Medium',
+			category: categories[1],
+			price: 79.95
+		},
+		{
+			name: 'Fu Manchu Tank Top from Big Trouble In Little China',
+			description:
+				'The only thing keeping you from being as legendary as Jack Burton is this Fu Manchu tank top from the 1986 film Big Trouble In Little China. Have you paid your dues Jack... yessir the check is in the mail. Size Large',
+			category: categories[1],
+			price: 45.99
+		},
+		{
+			name: 'Earring from Stone Cold',
+			description:
+				'This earring worn by Brian Bosworth in the 1991 film Stone Cold hangs at just the right length to accentuate the true length (and power) of your mullet. Made with 50% sterling silver and 100% pure attitude.',
+			category: categories[1],
+			price: 89.99
+		},
+		{
+			name: 'Sunglasses from They Live',
+			description:
+				'Ready to see the truth? These stylish sunglasses from the 1988 film They Live allow you to see who is human and who is an alien plotting to subdue the human race. Save the world today.',
+			category: categories[1],
+			price: 125.95
 		}
 	]);
 
