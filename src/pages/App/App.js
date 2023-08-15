@@ -18,6 +18,10 @@ export default function App() {
 							path="/orders/new"
 							element={<NewOrderPage user={user} setUser={setUser} />}
 						/>
+						{/* <Route
+							path="/orders/checkout"
+							element={<NewOrderPage user={user} setUser={setUser} />}
+						/> */}
 						<Route
 							path="/orders"
 							element={<OrderHistoryPage user={user} setUser={setUser} />}

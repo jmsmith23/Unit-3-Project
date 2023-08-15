@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import styles from './MenuList.module.scss';
 import MenuListItem from '../MenuListItem/MenuListItem';
+import Button from 'react-bootstrap/Button';
 
 export default function MenuList({ menuItems, handleAddToOrder }) {
 	const [pageNumber, setPageNumber] = useState(1);
@@ -34,9 +35,9 @@ export default function MenuList({ menuItems, handleAddToOrder }) {
 				/>
 			))}
 
-			<button onClick={subtractOne}>Previous</button>
+			<Button onClick={subtractOne}>Prev</Button>
 			{pageNumber}
-			<button onClick={addOne}>Next</button>
+			<Button onClick={addOne}>Next</Button>
 		</main>
 	);
 }
