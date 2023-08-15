@@ -3,7 +3,7 @@ import styles from './MenuListItem.module.scss';
 export default function MenuListItem({ menuItem, handleAddToOrder }) {
 	return (
 		<div className={styles.MenuListItem} style={{ backgroundColor: 'blue' }}>
-			<h1 className={styles.MenuListItem}>{menuItem.name}</h1>
+			<h1 className={styles.ItemName}>{menuItem.name}</h1>
 			<div className={styles.buy}>
 				<div className={styles.description}>{menuItem.description}</div>
 				<span>${menuItem.price.toFixed(2)}</span>

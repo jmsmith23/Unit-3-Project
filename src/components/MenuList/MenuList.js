@@ -1,7 +1,13 @@
 import { useState, useEffect } from 'react';
 import styles from './MenuList.module.scss';
 import MenuListItem from '../MenuListItem/MenuListItem';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
+import Logo from '../Logo/Logo';
+import Header from '../Navbar/Header';
 
 export default function MenuList({ menuItems, handleAddToOrder }) {
 	const [pageNumber, setPageNumber] = useState(1);
@@ -35,9 +41,15 @@ export default function MenuList({ menuItems, handleAddToOrder }) {
 				/>
 			))}
 
-			<Button onClick={subtractOne}>Prev</Button>
-			{pageNumber}
-			<Button onClick={addOne}>Next</Button>
+			<div className={styles.PageButtons}>
+				<Button size="sm" className="mx-3" onClick={subtractOne}>
+					Prev
+				</Button>
+				{pageNumber}
+				<Button size="sm" className="mx-3" onClick={addOne}>
+					Next
+				</Button>
+			</div>
 		</main>
 	);
 }
