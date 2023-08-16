@@ -22,7 +22,11 @@ export default function MenuList({ menuItems, handleAddToOrder }) {
 	}, [pageNumber, menuItems]);
 
 	const addOne = () => {
-		setPageNumber(pageNumber + 1);
+		const itemsPerPage = 5;
+		const startIndex = pageNumber * itemsPerPage;
+		if (startIndex < menuItems.length) {
+			setPageNumber(pageNumber + 1);
+		}
 	};
 
 	const subtractOne = () => {
