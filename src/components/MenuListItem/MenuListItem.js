@@ -8,7 +8,7 @@ export default function MenuListItem({ menuItem, handleAddToOrder }) {
 			</div>
 			<div className={styles.buy}>
 				<h1 className="item-name">{menuItem.name}</h1>
-				<div>{menuItem.description}</div>
+				<div className="description">{menuItem.description}</div>
 				<span>${menuItem.price.toFixed(2)}</span>
 				<button
 					className="addButton"

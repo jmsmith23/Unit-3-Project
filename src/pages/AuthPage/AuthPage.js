@@ -8,16 +8,14 @@ export default function AuthPage({ setUser }) {
 	const [showLogin, setShowLogin] = useState(true);
 
 	return (
-		<div className="AuthPage">
-			<main className={styles.AuthPage}>
+		<main className={styles.AuthPage}>
+			<div className={styles.Overlay}>
+				<Logo />
 				{showLogin ? (
 					<LoginForm setUser={setUser} />
 				) : (
 					<SignUpForm setUser={setUser} />
 				)}
-				<div className="memberText mb-3">
-					<p>Not a member yet?</p>
-				</div>
 				<div>
 					<button
 						className="btn-lg signUpLoginToggleBtn"
@@ -26,7 +24,7 @@ export default function AuthPage({ setUser }) {
 						{showLogin ? 'SIGN UP' : 'LOG IN'}
 					</button>
 				</div>
-			</main>
-		</div>
+			</div>
+		</main>
 	);
 }

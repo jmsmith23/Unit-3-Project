@@ -1,13 +1,14 @@
 .Logo {
-    height: 12vmin;
-    width: 28vmin;
+    width: 12em;
+    height: 4em;
+    font-size: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(17,41,56);
     color: rgba(236,98,80);
-    font-size: 2.7vmin;
     font-family: 'Frijole', cursive;
     border: .6vmin solid rgba(250, 171, 75,);
+    margin-bottom: 80px;
     }
