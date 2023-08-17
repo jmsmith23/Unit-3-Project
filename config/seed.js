@@ -188,9 +188,99 @@ const Item = require('../models/item');
 				'Ready to see the truth? These stylish sunglasses from the 1988 film They Live allow you to see who is human and who is an alien plotting to subdue the human race. Save the world today.',
 			category: categories[1],
 			price: 125.95
+		},
+		{
+			name: 'Army Jacket from Day of the Dead',
+			description:
+				'If brute force is your way of life and scientists are just a bunch of hippies, you need this army coat worn by Captain Rhodes in the 1985 film Day of the Dead. Take control of the monkey farm today. Size Large',
+			category: categories[1],
+			price: 75.95
+		},
+		{
+			name: 'Suit from Dead Heat',
+			description:
+				'You are in for a real "treat" with this suit worn by Treat Williams in the 1988 film Dead Heat. In a world full of Arthur P Loudermilks, be a Roger Mortis. Size Large',
+			category: categories[1],
+			price: 400
+		},
+		{
+			name: 'Hitchhiker Raincoat from Creepshow 2',
+			description:
+				'Thanks for the ride, lady. From the 1987 film Creepshow 2. Size Medium',
+			category: categories[1],
+			price: 123
+		},
+		{
+			name: 'Skeletor Costume from Masters of the Universe',
+			description:
+				'The actual costume worn by Frank Langella for his moving performance as Skeletor in the 1987 film Masters of the Universe. Size Large',
+			category: categories[2],
+			price: 1000
+		},
+		{
+			name: 'Ninja Outfit from American Ninja 4',
+			description:
+				'This is the yellow ninja outfit worn by 0 time award nominated actor Michael Dudikoff in the 1990 classic American Ninja 4. Size Medium',
+			category: categories[2],
+			price: 700
+		},
+		{
+			name: 'Nat Nerd Costume from The Garbage Pail Kids Movie',
+			description:
+				'If the struggles of life are too much to handle, grab this Nat Nerd costume from the 1987 film The Garbage Pail Kids Movie and watch everything change',
+			category: categories[2],
+			price: 800
+		},
+		{
+			name: 'Allan Quatermain Outfit',
+			description:
+				'Whats worse, an Indiana Jones ripoff or the last two Indiana Jones movies? Thats what I thought! Get the outfit that ripped off the original before the original ripped off the original. From the 1986 film Allan Quartermain and the Lost City of Gold.',
+			category: categories[2],
+			price: 300
+		},
+		{
+			name: 'Tuxedo from Action Jackson',
+			description:
+				'The tuxedo worn by Carl Weathers in the 1988 film Action Jackson. Get a piece of the Action today. Size Large',
+			category: categories[2],
+			price: 400
+		},
+		{
+			name: 'Cop Uniform from Maniac Cop',
+			description:
+				'Get away with murder without the headache of the police academy with this cop uniform worn by the legend Robert Zdar in the 1988 film Maniac Cop. Size X-Large',
+			category: categories[2],
+			price: 300
+		},
+		{
+			name: 'Kuato costume From Total Recall',
+			description:
+				'Hide your beer belly and open your mind with this Kuato costume from the 1990 film Total Recall. Says 10 different phrases, batteries not included.',
+			category: categories[2],
+			price: 900
+		},
+		{
+			name: 'Kids Costume from Halloween III: Season of the Witch',
+			description:
+				'Straight from Silver Shamrock, this is the Pumpkin costume from the 1982 film Halloween III: Season of the Witch. Comes with a complimentary 6 month subscription to a local pest control company of your choice. Size Small',
+			category: categories[2],
+			price: 600
+		},
+		{
+			name: 'Demonicus Costume from Demonicus',
+			description:
+				'If you have ever hoped of living the life of a gladiator and your friends are all kind of lame anyway, score this Demonicus costume from the 2001 film Demonicus',
+			category: categories[2],
+			price: 150
+		},
+		{
+			name: 'Belial Costume from Basketcase',
+			description:
+				'Come out of the basket confidently with this Belial costume from the 1982 film Basketcase. Size X-Small.',
+			category: categories[2],
+			price: 2000
 		}
 	]);
-
 	console.log(items);
 
 	process.exit();

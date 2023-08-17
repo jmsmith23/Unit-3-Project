@@ -28,9 +28,9 @@
   }
   
 .buy span {
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     text-align: center;
-    color: var(--text-light);
+    color: rgba(236,98,80);
   }
   
   .MenuListItem .itemImage {
@@ -53,6 +53,7 @@
   border-radius: 3px;
   position: relative;
   font-family: 'Frijole', cursive;
+  padding: 6px;
 }
 
 .item-name{
