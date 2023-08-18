@@ -1,12 +1,13 @@
 .LineItem {
     width: 100%;
     display: grid;
-    grid-template-columns: 3vw 15.35vw 5.75vw 5.25vw;
+    grid-template-columns: 1vw 15.35vw 5.75vw 5.25vw;
     padding: 1vmin 0;
     color: var(--text-light);
     background-color: var(--white);
     border-top: .1vmin solid var(--tan-3);
     font-size: 1.5vw;
+    border: 1px solid gray;
     }
     
     .LineItem:last-child {
@@ -25,8 +26,13 @@
     justify-content: flex-end;
     align-items: center;
     font-size: 1.3vw;
+    color: green;
     }
     
     .LineItem button {
     margin: 0;
+    }
+
+    orderedItem {
+        text-align: center;
     }

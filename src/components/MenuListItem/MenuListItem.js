@@ -4,12 +4,7 @@ export default function MenuListItem({ menuItem, handleAddToOrder }) {
 	return (
 		<div className={styles.MenuListItem}>
 			<div className="col-md-5">
-				<img
-					src={menuItem.imageUrl}
-					className="item-image"
-					width="230"
-					height="280"
-				></img>
+				<img src={menuItem.imageUrl} className="item-image"></img>
 			</div>
 			<div className={styles.buy}>
 				<h1 className="item-name">{menuItem.name}</h1>

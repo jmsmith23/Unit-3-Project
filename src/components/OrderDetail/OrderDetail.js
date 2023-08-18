@@ -22,13 +22,15 @@ export default function OrderDetail({
 		<div className={styles.OrderDetail}>
 			<div className={styles.sectionHeading}>
 				{order.isPaid ? (
-					<span>
+					<span className="order-title">
 						ORDER <span className="smaller">{order.orderId}</span>
 					</span>
 				) : (
-					<span>NEW ORDER</span>
+					<span className="new-order-title">NEW ORDER </span>
 				)}
-				<span>{new Date(order.updatedAt).toLocaleDateString()}</span>
+				<span className="date">
+					{new Date(order.updatedAt).toLocaleDateString()}
+				</span>
 			</div>
 			<div
 				className={`${styles.lineItemContainer} flex-ctr-ctr flex-col scroll-y`}

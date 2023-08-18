@@ -32,22 +32,6 @@ const Item = require('../models/item');
 			imageUrl: '/img/toxic-mop.png'
 		},
 		{
-			name: 'Bounty Hunter Gun from Critters',
-			description:
-				'Have you always dreamed of being a bounty hunter? Do you look like 80s era Bon Jovi? This is the gun used by Ug (Terrance Mann) in the 1986 film Critters, make it yours today. For use on "critters" only.',
-			category: categories[0],
-			price: 1299.95,
-			imageUrl: '/img/critter-gun.png'
-		},
-		{
-			name: 'Bucket of broken glass from Kickboxer',
-			description:
-				'Trying to fight the ancient way but find yourself missing something? Take home this bucket of broken glass from the 1989 film Kickboxer starring Jean-Claude van Damme and be a real kickboxing champion, Nok Su Kow.',
-			category: categories[0],
-			price: 75,
-			imageUrl: '/img/kickboxer.png'
-		},
-		{
 			name: 'Sacrifyx Record from The Gate',
 			description:
 				'Need to close up that whole in your backyard that is allowing demons to come to earth to try to kill you? Look no further. This record from the 1987 film The Gate, titled The Dark Book by Sacrifyx, will guide you all the way. Condition is NM+',
@@ -80,45 +64,6 @@ const Item = require('../models/item');
 			imageUrl: '/img/moonshine.png'
 		},
 		{
-			name: 'Binoculars from Fright Night',
-			description:
-				'Score yourself a pair of binoculars used by Charley Brewster in the 1985 film Fright Night. We are not responsible if spying on your neighbors results in you realizing they are vampires.',
-			category: categories[0],
-			price: 85,
-			imageUrl: '/img/binoculars.png'
-		},
-		{
-			name: 'Ouija board from Witchboard',
-			description:
-				'If speaking to the dead is the type of thing you are into, get yourself the Ouija board from the 1986 film Witchboard. Evil spirits might make things difficult for a bit but who knows, you may get lucky and end up in the next Whitesnake video.',
-			category: categories[0],
-			price: 99.99,
-			imageUrl: '/img/ouija.png'
-		},
-		{
-			name: 'Box of (rice?) from The Lost Boys',
-			description: 'Eat at your own risk. From the 1987 film The Lost Boys',
-			category: categories[0],
-			price: 15.99,
-			imageUrl: '/img/rice.png'
-		},
-		{
-			name: 'Missile from Weird Science',
-			description:
-				'Now you too can have a missile in your house. From the 1985 film Weird Science',
-			category: categories[0],
-			price: 1499.95,
-			imageUrl: '/img/missle.png'
-		},
-		{
-			name: 'Frozen Dinner from Better Off Dead',
-			description:
-				'Swansons Fried Chicken, chocolate nut brownie, and corn in seasoned sauce. From the 1985 movie Better Off Dead. Makes a great Christmas gift.',
-			category: categories[0],
-			price: 10.99,
-			imageUrl: '/img/dinner.png'
-		},
-		{
 			name: 'Mac puppet from Mac and Me',
 			description:
 				'Mac and Me? More like Mac and You! This prop from the 1988 film Mac and Me can now be yours for a price thats out of this world.',
@@ -149,14 +94,6 @@ const Item = require('../models/item');
 			category: categories[0],
 			price: 1800,
 			imageUrl: '/img/robot.png'
-		},
-		{
-			name: 'Gem from Psycho Goreman',
-			description:
-				'Need to control a demon who is bent on destroying the universe? We got you covered with this powerful gem from the 2020 film Psycho Goreman.',
-			category: categories[0],
-			price: 279.99,
-			imageUrl: '/img/gem.png'
 		},
 		{
 			name: 'Baseball Cap from Over The Top',
@@ -243,70 +180,80 @@ const Item = require('../models/item');
 			description:
 				'The actual costume worn by Frank Langella for his moving performance as Skeletor in the 1987 film Masters of the Universe. Size Large',
 			category: categories[2],
-			price: 1000
+			price: 1000,
+			imageUrl: '/img/skeletor.png'
 		},
 		{
 			name: 'Ninja Outfit from American Ninja 4',
 			description:
 				'This is the yellow ninja outfit worn by 0 time award nominated actor Michael Dudikoff in the 1990 classic American Ninja 4. Size Medium',
 			category: categories[2],
-			price: 700
+			price: 700,
+			imageUrl: '/img/american-ninja.png'
 		},
 		{
 			name: 'Nat Nerd Costume from The Garbage Pail Kids Movie',
 			description:
 				'If the struggles of life are too much to handle, grab this Nat Nerd costume from the 1987 film The Garbage Pail Kids Movie and watch everything change',
 			category: categories[2],
-			price: 800
+			price: 800,
+			imageUrl: '/img/nat-nerd.png'
 		},
 		{
 			name: 'Allan Quatermain Outfit',
 			description:
 				'Whats worse, an Indiana Jones ripoff or the last two Indiana Jones movies? Thats what I thought! Get the outfit that ripped off the original before the original ripped off the original. From the 1986 film Allan Quartermain and the Lost City of Gold.',
 			category: categories[2],
-			price: 300
+			price: 300,
+			imageUrl: '/img/allan-q.png'
 		},
 		{
-			name: 'Tuxedo from Action Jackson',
+			name: 'Wolfman from Monster Squad',
 			description:
-				'The tuxedo worn by Carl Weathers in the 1988 film Action Jackson. Get a piece of the Action today. Size Large',
+				'You know you want this Wolfman costume from the 1987 film The Monster Squad. Comes with a free sports cup. Size X-Large',
 			category: categories[2],
-			price: 400
+			price: 1400,
+			imageUrl: '/img/wolfman.png'
 		},
 		{
 			name: 'Cop Uniform from Maniac Cop',
 			description:
 				'Get away with murder without the headache of the police academy with this cop uniform worn by the legend Robert Zdar in the 1988 film Maniac Cop. Size X-Large',
 			category: categories[2],
-			price: 300
+			price: 300,
+			imageUrl: '/img/zdar.png'
 		},
 		{
 			name: 'Kuato costume From Total Recall',
 			description:
 				'Hide your beer belly and open your mind with this Kuato costume from the 1990 film Total Recall. Says 10 different phrases, batteries not included.',
 			category: categories[2],
-			price: 900
+			price: 900,
+			imageUrl: '/img/kuato.png'
 		},
 		{
 			name: 'Kids Costume from Halloween III: Season of the Witch',
 			description:
 				'Straight from Silver Shamrock, this is the Pumpkin costume from the 1982 film Halloween III: Season of the Witch. Comes with a complimentary 6 month subscription to a local pest control company of your choice. Size Small',
 			category: categories[2],
-			price: 600
+			price: 600,
+			imageUrl: '/img/halloween3.png'
 		},
 		{
 			name: 'Demonicus Costume from Demonicus',
 			description:
 				'If you have ever hoped of living the life of a gladiator and your friends are all kind of lame anyway, score this Demonicus costume from the 2001 film Demonicus',
 			category: categories[2],
-			price: 150
+			price: 150,
+			imageUrl: '/img/demonicus.png'
 		},
 		{
-			name: 'Belial Costume from Basketcase',
+			name: 'Greener Costume from Hell Comes To Frogtown',
 			description:
-				'Come out of the basket confidently with this Belial costume from the 1982 film Basketcase. Size X-Small.',
+				'If being a mutant frog in a post apocalyptic world sounds awesome to you, get this frog costume from the 1988 film Hell Comes To Frogtown. Size Large',
 			category: categories[2],
-			price: 2000
+			price: 2000,
+			imageUrl: '/img/greener.png'
 		}
 	]);
 	console.log(items);

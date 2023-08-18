@@ -55,15 +55,17 @@ export default function NewOrderPage({ user, setUser }) {
 
 	return (
 		<main className={styles.NewOrderPage}>
-			<aside>
+			<aside className="left-side">
 				<Logo />
-				<CategoryList
-					categories={categoriesRef.current}
-					cart={setCart}
-					setActiveCat={setActiveCat}
-				/>
+				<div className="category-container">
+					<CategoryList
+						categories={categoriesRef.current}
+						cart={setCart}
+						setActiveCat={setActiveCat}
+					/>
+				</div>
 				<Link to="/orders" className="button btn-sm">
-					PREVIOUS ORDERS
+					PREVIOUS POOR DECISIONS
 				</Link>
 				<UserLogOut user={user} setUser={setUser} />
 			</aside>

@@ -5,15 +5,18 @@
     padding: 3vmin;
     font-size: 2vmin;
     color: var(--text-light);
+    background-color: gray;
   }
   
   .OrderDetail .sectionHeading {
-    width: 100%
+    width: 100%;
+    text-align: center;
+    font-family: 'Frijole', cursive;
+    font-size: 2em;
   }
   
   .OrderDetail .lineItemContainer {
     margin-top: 3vmin;
-    justify-content: flex-start;
     height: calc(100vh - 18vmin);
     width: 100%;
   }
@@ -45,3 +48,4 @@
     top: 50vh;
     font-size: 2vmin;
   }
+

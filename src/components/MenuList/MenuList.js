@@ -46,13 +46,13 @@ export default function MenuList({ menuItems, handleAddToOrder }) {
 			))}
 
 			<div className={styles.PageButtons}>
-				<Button size="sm" className="mx-3" onClick={subtractOne}>
+				<button size="sm" className="mx-3" onClick={subtractOne}>
 					Prev
-				</Button>
+				</button>
 				{pageNumber}
-				<Button size="sm" className="mx-3" onClick={addOne}>
+				<button size="sm" className="mx-3" onClick={addOne}>
 					Next
-				</Button>
+				</button>
 			</div>
 		</main>
 	);

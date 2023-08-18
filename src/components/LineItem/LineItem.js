@@ -5,7 +5,7 @@ export default function LineItem({ lineItem, isPaid, handleChangeQty }) {
 		<div className={styles.LineItem}>
 			<div className="flex-ctr-ctr">{lineItem.item.emoji}</div>
 			<div className="flex-ctr-ctr flex-col">
-				<span className="ms-auto">{lineItem.item.name} - </span>
+				<span className="ordered-item ms-auto">{lineItem.item.name} - </span>
 				<span>{lineItem.item.price.toFixed(2)}</span>
 			</div>
 			<div
@@ -17,16 +17,7 @@ export default function LineItem({ lineItem, isPaid, handleChangeQty }) {
 						className="btn-xs"
 						onClick={() => handleChangeQty(lineItem.item._id, lineItem.qty - 1)}
 					>
-						−
-					</button>
-				)}
-				<span>{lineItem.qty}</span>
-				{!isPaid && (
-					<button
-						className="btn-xs"
-						onClick={() => handleChangeQty(lineItem.item._id, lineItem.qty + 1)}
-					>
-						+
+						Remove
 					</button>
 				)}
 			</div>
