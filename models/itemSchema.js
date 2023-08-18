@@ -7,7 +7,8 @@ const itemSchema = new Schema(
 		name: { type: String, required: true },
 		category: { type: Schema.Types.ObjectId, ref: 'Category' },
 		price: { type: Number, required: true, default: 0 },
-		description: { type: String, required: true }
+		description: { type: String, required: true },
+		imageUrl: String
 	},
 	{
 		timestampes: true
