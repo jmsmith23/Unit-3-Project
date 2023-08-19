@@ -55,7 +55,7 @@ export default function NewOrderPage({ user, setUser }) {
 
 	return (
 		<main className={styles.NewOrderPage}>
-			<aside className="left-side">
+			<aside>
 				<Logo />
 				<div className="category-container">
 					<CategoryList
