@@ -112,12 +112,12 @@ const Item = require('../models/item');
 			imageUrl: '/img/tshirt.png'
 		},
 		{
-			name: 'Rex Kwon Do Pants from Napoleon Dynamite',
+			name: 'Lord Humungus Mask From The Road Warrior',
 			description:
-				'Merica, am I right?! These loose fitting Zubaz pants worn by the character Rex in the 2004 film Napoleon Dynamite are sure to deliver a mighty roundhouse kick to anyones face. Size Large',
+				'Show your reasonable side and give Jason a run for his money with this mask used in the 1981 film The Road Warrior.',
 			category: categories[1],
 			price: 49.99,
-			imageUrl: '/img/rex-pants.png'
+			imageUrl: '/img/humungus.png'
 		},
 		{
 			name: 'Spandex One Piece Suit from Breakin 2: Electric Bugaloo',
@@ -254,6 +254,86 @@ const Item = require('../models/item');
 			category: categories[2],
 			price: 2000,
 			imageUrl: '/img/greener.png'
+		},
+		{
+			name: 'Guitar from Miami Connection',
+			description:
+				'Ready to take down a drug cartel and a group of ninjas while being in the hottest band in town? Now you can with this guitar from the 1987 film Miami Connection. Comes with tabs for the hit song Against The Ninja.',
+			category: categories[3],
+			price: 1700,
+			imageUrl: '/img/miami.png'
+		},
+		{
+			name: 'Subway Poster for Death Spa',
+			description:
+				'Remember when you could not go anywhere without passing one of these beauties? Me neither but thats no reason not to take up a wall in your house with this 40 x 60 poster from the 1989 film Death Spa.',
+			category: categories[3],
+			price: 80,
+			imageUrl: '/img/deathspa.png'
+		},
+		{
+			name: 'Chop Top Coat Hanger from Texas Chainsaw Massacre 2',
+			description:
+				'Need a device to scratch the area around that metal plate in your scalp? Get yourself this coat hanger from the 1986 classic Texas Chainsaw Massacre 2. Lighter included.',
+			category: categories[3],
+			price: 500,
+			imageUrl: '/img/choptop.png'
+		},
+		{
+			name: 'Action Jackson Soundtrack (LP)',
+			description:
+				'For the last time ever, get your hands on this rare copy of the soundtrack from the 1988 film Action Jackson. Condition is NM and contains an autograph of Jackie Krost, the movies music supervisor.',
+			category: categories[3],
+			price: 80,
+			imageUrl: '/img/actionjackson.png'
+		},
+		{
+			name: 'Hand Written Score from Attack Force',
+			description:
+				'Tap into your musical genius and impress your friends with this handwritten score from composer Barry Taylor from the 2006 film Attack Force.',
+			category: categories[3],
+			price: 2000,
+			imageUrl: '/img/music.png'
+		},
+		{
+			name: 'Panaflex Camera Used To Film The Skateboard Kid',
+			description:
+				'We have all seen the 1993 film The Skateboard Kid more times than we can recall, now see it through the eyes of director Larry Swerdlove with the actual camera used to film the movie.',
+			category: categories[3],
+			price: 50000,
+			imageUrl: '/img/camera.png'
+		},
+		{
+			name: 'Cloth Backdrop from Carnosaur',
+			description:
+				'Take your kids next class photo in front of this backdrop used to make the VHS version cover of the 1993 film Carnosaur.',
+			category: categories[3],
+			price: 100,
+			imageUrl: '/img/carnosaur.png'
+		},
+		{
+			name: 'Mall Map from Sorority Babes in the Slimeball Bowl-A-Rama',
+			description:
+				'Never get lost running away from demons again with this mall directory from the 1988 film Sorority Babes in the Slimeball Bowl-A-Rama.',
+			category: categories[3],
+			price: 1255.95,
+			imageUrl: '/img/mallmap.png'
+		},
+		{
+			name: 'Signed Photo of Frank Henelotter',
+			description:
+				'Your collection isnt complete without this signed photo of Frank Henelotter, director of the Basket Case movies and many others.',
+			category: categories[3],
+			price: 500,
+			imageUrl: '/img/frank.png'
+		},
+		{
+			name: 'Animation Cel from Stay Tuned',
+			description:
+				'Grab this animation cel from the 1992 film Stay Tuned and put yourself in the middle of the action. Signed by cel cleaner Donna Narhuminti herself.',
+			category: categories[3],
+			price: 1000,
+			imageUrl: '/img/tooned.png'
 		}
 	]);
 	console.log(items);
