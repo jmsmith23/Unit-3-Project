@@ -12,10 +12,20 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Frijole&family=Oswald:wght@700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<script defer src="js/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_getU-a9689e.1e1a4fb2d142fc690c52.js?2f7900b792295af31977"></script><script defer src="js/dist/App.3b89447c68ad22b7465d.js?2f7900b792295af31977"></script><script defer src="js/dist/main.e70a9980834bdea1725b.js?2f7900b792295af31977"></script></head>
+<script defer src="js/dist/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_getU-a9689e.1e1a4fb2d142fc690c52.js?c7ef7f41e444c7ae7128"></script><script defer src="js/dist/App.3b89447c68ad22b7465d.js?c7ef7f41e444c7ae7128"></script><script defer src="js/dist/main.e70a9980834bdea1725b.js?c7ef7f41e444c7ae7128"></script></head>
 
 <body>
   <div id="app"></div>
+
+  
+  <script> // Intercom messenger app
+    var APP_ID = "jxz1zxiu"; // Replace this with your workspace ID
+  
+   window.intercomSettings = {
+      app_id: APP_ID
+    };
+  </script>
+  <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/' + APP_ID;var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 
 </body>
 
